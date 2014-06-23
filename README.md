@@ -19,3 +19,6 @@ Standard ReSharper and CodeMaid settings for .NET projects. Enforces a sensible 
 * Replace `MyProject` with the name of your solution (though name is not actually important here).
 * In Visual Studio, navigate to `CodeMaid > Configuration`, click `Import` and select the settings file.
 * To update, save changed options in the CodeMaid configuration dialog and select `Export` to save to the settings file.
+
+####Related
+If you also need a standard gitignore for your project, grab `VisualStudio.gitignore` from https://github.com/github/gitignore (and rename to just .gitignore).
