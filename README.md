@@ -9,14 +9,13 @@ Standard ReSharper and CodeMaid settings for .NET projects. Enforces a sensible 
 
 ######ReSharper
 
-**To apply generally**
-
+*To apply generally*
 * In Visual Studio, navigate to `ReSharper > Manage Options`.
 * Select `This computer`.
 * Click `Import / Export Setting > Import From File`.
 * Import the `MyProject.sln.DotSettings` file.
 
-**Project specific**
+*Project specific*
 
 * Copy the `MyProject.sln.DotSettings` to the root folder of your Visual Studio solution.
 * Replace `MyProject` with the name of your solution.
@@ -25,11 +24,11 @@ Standard ReSharper and CodeMaid settings for .NET projects. Enforces a sensible 
 
 ######CodeMaid
 
-**Apply generally**
+*Apply generally*
 * In Visual Studio, navigate to `CodeMaid > Configuration`, click `Import` and select the settings file.
 * To update, save changed options in the CodeMaid configuration dialog and select `Export` to save to the settings file.
 
-**Project specific**
+*Project specific*
 * As it stands, CodeMaid does not automatically apply to projects like ReSharper does.
 * However it is probably worth renaming the file to match your project and checking it in to source control.
 
