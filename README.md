@@ -1,15 +1,23 @@
 Visual Studio settings
 ======================
 
-Standard ReSharper and CodeMaid settings for .NET projects. Enforces a sensible default code styling.
+####Visual Studio (Template.vssettings)
 
-(The style enforced is not meant to be dogmatic, but it is hopefully a useful starting point for most projects!)
+Changes to some of the default settings for Visual Studio, e.g. auto-reload files if saved, show line numbers.
 
-####Usage
+If you have spent lots of time setting up Visual Studio the way you like it you probably don't want this! Hopefully a couple of useful bits for new people.
 
-######ReSharper
+*Applying*
+* In Visual Studio, navigate to `Tools > Import and Export Settings`.
+* Select `Import selected environment settings`
+* (Decide whether to export current settings or not)
+* Browse to `Template.vssettings` and click through to `Finish`
 
-*To apply generally*
+####ReSharper (Template.sln.DotSettings)
+
+Sets up some useful ReSharper things (e.g. colour identifiers, code decompilation options) and enforces a sensible default code style. The style enforced is not meant to be dogmatic but hopefully it is a useful starting point for most projects.
+
+*Applying generally*
 * In Visual Studio, navigate to `ReSharper > Manage Options`.
 * Select `This computer`.
 * Click `Import / Export Setting > Import From File`.
@@ -22,15 +30,13 @@ Standard ReSharper and CodeMaid settings for .NET projects. Enforces a sensible 
 * ReSharper project settings should be automatically applied in Visual Studio without restart.
 * To update, select `team-shared` in the `Save To` picker in the ReSharper options dialog.
 
-######CodeMaid
+####CodeMaid (Template.CodeMaid.settings)
 
-*Apply generally*
+Works together with the ReSharper settings to enforce style.
+
+*Applying*
 * In Visual Studio, navigate to `CodeMaid > Configuration`, click `Import` and select the `Template.CodeMaid.settings` file.
 * To update, save changed options in the CodeMaid configuration dialog and select `Export` to save to the settings file.
-
-*Project specific*
-* As it stands, CodeMaid does not automatically apply to projects like ReSharper does.
-* However it is probably worth renaming the `Template.CodeMaid.settings` file to match your project and checking it in to source control.
 
 ####Related
 If you also need a standard gitignore for your project, grab `VisualStudio.gitignore` from https://github.com/github/gitignore (and rename to just .gitignore).
