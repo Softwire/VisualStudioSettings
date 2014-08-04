@@ -9,9 +9,9 @@ If you have spent lots of time setting up Visual Studio the way you like it you 
 
 *Applying*
 * In Visual Studio, navigate to `Tools > Import and Export Settings`.
-* Select `Import selected environment settings`
-* (Decide whether to export current settings or not, only matters if you want the option to go back)
-* Browse to `Template.vssettings` and click through to `Finish`
+* Select `Import selected environment settings`.
+* (Decide whether to export current settings or not, only matters if you want the option to go back).
+* Browse to and select `Template.vssettings`, then click through to `Finish`.
 
 ####ReSharper (Template.sln.DotSettings)
 
@@ -39,4 +39,4 @@ Works together with the ReSharper settings to enforce style.
 * To update, save changed options in the CodeMaid configuration dialog and select `Export` to save to the settings file.
 
 ####Related
-If you also need a standard gitignore for your project, grab `VisualStudio.gitignore` from https://github.com/github/gitignore (and rename to just .gitignore).
+If you also need a standard gitignore for your project, grab `VisualStudio.gitignore` from https://github.com/github/gitignore (and rename to just `.gitignore`).
