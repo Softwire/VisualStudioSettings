@@ -10,7 +10,7 @@ If you have spent lots of time setting up Visual Studio the way you like it you 
 *Applying*
 * In Visual Studio, navigate to `Tools > Import and Export Settings`.
 * Select `Import selected environment settings`
-* (Decide whether to export current settings or not)
+* (Decide whether to export current settings or not, only matters if you want the option to go back)
 * Browse to `Template.vssettings` and click through to `Finish`
 
 ####ReSharper (Template.sln.DotSettings)
