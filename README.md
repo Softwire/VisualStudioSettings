@@ -3,7 +3,7 @@ Visual Studio settings
 
 ####Visual Studio (Template.vssettings)
 
-Changes to some of the default settings for Visual Studio, e.g. auto-reload files if saved, show line numbers.
+Changes to some of the default settings for Visual Studio, e.g. auto-reload files if saved, show line numbers. Also sets up ReSharper shortcuts.
 
 If you have spent lots of time setting up Visual Studio the way you like it you probably don't want this! Hopefully a couple of useful bits for new people.
 
