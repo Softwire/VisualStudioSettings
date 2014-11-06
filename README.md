@@ -36,7 +36,6 @@ Works together with the ReSharper settings to enforce style.
 
 *Applying*
 * In Visual Studio, navigate to `CodeMaid > Configuration`, click `Import` and select the `Template.CodeMaid.settings` file.
-* To update, save changed options in the CodeMaid configuration dialog and select `Export` to save to the settings file.
 
 ####Related
 If you also need a standard gitignore for your project, grab `VisualStudio.gitignore` from https://github.com/github/gitignore (and rename to just `.gitignore`).
