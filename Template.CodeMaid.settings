@@ -435,7 +435,7 @@
                 <value>Classes||12||Classes</value>
             </setting>
             <setting name="Formatting_CommentRunDuringCleanup" serializeAs="String">
-                <value>False</value>
+                <value>True</value>
             </setting>
             <setting name="Reorganizing_RegionsInsertKeepEvenIfEmpty" serializeAs="String">
                 <value>False</value>
@@ -503,6 +503,45 @@
             </setting>
             <setting name="Formatting_CommentXmlValueIndent" serializeAs="String">
                 <value>0</value>
+            </setting>
+            <setting name="Formatting_CommentXmlKeepTagsTogether" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="ThirdParty_UseTelerikJustCodeCleanup" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="Formatting_CommentXmlTagsToLowerCase" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="ThirdParty_OtherCleaningCommandsExpression" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ThirdParty_UseXAMLStylerCleanup" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="General_LoadModelsAsynchronously" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="Cleaning_InsertEndOfFileTrailingNewLine" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="Finding_TemporarilyOpenSolutionFolders" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="Digging_PrimarySortOrder" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="Formatting_CommentXmlSpaceSingleTags" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="Cleaning_IncludeSCSS" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="ThirdParty_UseJetBrainsReSharperCleanup" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="Formatting_CommentXmlSplitAllTags" serializeAs="String">
+                <value>False</value>
             </setting>
         </SteveCadwallader.CodeMaid.Properties.Settings>
     </userSettings>
