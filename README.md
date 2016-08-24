@@ -30,14 +30,5 @@ Sets up some useful ReSharper things (e.g. colour identifiers, code decompilatio
 * ReSharper project settings should be automatically applied in Visual Studio without restart.
 * To update, select `team-shared` in the `Save To` picker in the ReSharper options dialog.
 
-####CodeMaid (Template.CodeMaid.settings)
-
-Works together with the ReSharper settings to enforce style.
-
-*Applying*
-* In Visual Studio, navigate to `CodeMaid > Configuration`
-* Click `Import`.
-* Import the `Template.CodeMaid.settings` file.
-
 ####Related
 If you also need a standard gitignore for your project, grab `VisualStudio.gitignore` from https://github.com/github/gitignore (and rename to just `.gitignore`).
